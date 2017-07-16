@@ -83,7 +83,7 @@ class  Intersys(unittest.TestCase):
                  finally:
                      print("Fail")
 
-    def test_Assert_equals(self):
+    def test_3_Assert_equals(self):
                  #Assert the content for element with id ‘menu-footer-menu’ equals the string ‘Company’
                  driver = self.driver
                  try:
