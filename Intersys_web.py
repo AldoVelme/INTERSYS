@@ -100,7 +100,7 @@ class  Intersys(unittest.TestCase):
                      self.assertTrue(self.search_field, "Fail.... ")
                      self.assertequal(self.company, compan, "Error not equal............ ")
                      st = datetime.datetime.fromtimestamp(time.time()).strftime("%Y-%m-%d %H;%M")
-                     file_name = "TC1_Subscription_Services" + st + ".png"
+                     file_name = "TC1_Assert_equals" + st + ".png"
                      driver.save_screenshot(file_name)
                      raise
                  finally:
